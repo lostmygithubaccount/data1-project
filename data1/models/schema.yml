@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: pings
+    description: "Pings model"
+
+sources:
+  - name: dbt_cody
+    tables:
+      - name: raw_html
