@@ -1,11 +1,11 @@
 --/*
 select
-    *
-from dbt_cody.pings
+    count(*)
+from dbt_cody.raw_html
 ;
 --*/
 
-/*
+--/*
 select
     url,
     avg(length(encoded_html)) as html_length_avg,
